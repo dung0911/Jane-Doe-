@@ -1,0 +1,85 @@
+/*
+Giai dien p: >=1024px;
+tablet: >=704px <1024px;
+mobile: <740px;
+ */
+
+
+/* Pc */
+
+@media (min-width:1024px) {}
+
+
+/* Tablet & Mobile*/
+
+@media (max-width :1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .form-control {
+        padding: 15px;
+    }
+    .social-list {
+        font-size: 48px;
+    }
+    .footer .social-list a {
+        margin: 0 8px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width:46.25em) and (max-width :63.9375em) {
+    .contact-info {
+        line-height: 2;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width:46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+}
